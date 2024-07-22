@@ -18,4 +18,10 @@
 // EjemploEstatico.Saludar();
 
 //Uso de constructor estatico
-EjemploEstatico.Saludar();
+// EjemploEstatico.Saludar();
+
+EjemploHibrido.MostrarHead();
+var nuevoUsuario = new EjemploHibrido(1, "santiago", "pineda", 168);
+Console.WriteLine(EjemploHibrido.FechaActual); 
+nuevoUsuario.Mostrarinformacion();
+EjemploHibrido.MostratFooter();
